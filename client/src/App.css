@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+    font-size: .9rem;
+}
+
+.active {
+  background-color: lightblue;
+  border-radius: 6px;
+}
+
+
+.p-button-label {
+  font-weight: 400;
+}
+
+.p-datatable-header {
+  padding: 0;
+  border: 0px;
+}

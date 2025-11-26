@@ -1,0 +1,13 @@
+services:
+  tw-exporter:
+    image: tw-exporter
+    container_name: 'ThingworxExporter'
+    ports:
+      - 5000:5000
+    volumes:
+      - ./Servers:/app/data
+    environment:
+      - REQUESTS_TIMEOUT=5
+      - DEBUG_MODE=false
+      - USE_MOCK_DATA=false
+      

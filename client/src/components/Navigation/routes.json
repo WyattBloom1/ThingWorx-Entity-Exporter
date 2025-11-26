@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "name": "Servers",
+      "dest": "/Home",
+      "title": "Servers"
+    },
+    {
+      "name": "PDF Tool",
+      "dest": "/PDF",
+      "title": "PDF Tool"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+    "dataShape": {
+        "fieldDefinitions": {
+            "delete": {
+                "name": "delete",
+                "description": "Current user has delete permission",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "description": {
+                "name": "description",
+                "description": "Entity description",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "id": {
+                "name": "id",
+                "description": "Entity id",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "isEditable": {
+                "name": "isEditable",
+                "description": "Indicates if is editable or not",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "isEditableExtensionObject": {
+                "name": "isEditableExtensionObject",
+                "description": "Indicates if the object is editable as an extension",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "isEditableSystemObject": {
+                "name": "isEditableSystemObject",
+                "description": "Indicates if the object is editable as a system object",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "isExtension": {
+                "name": "isExtension",
+                "description": "Indicates if the object is from an extension",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "isSystemObject": {
+                "name": "isSystemObject",
+                "description": "Indicates if a system object or not",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "lastModifiedDate": {
+                "name": "lastModifiedDate",
+                "description": "Last modified date",
+                "baseType": "DATETIME",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "name": {
+                "name": "name",
+                "description": "Entity name (or id)",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {
+                    "isPrimaryKey": true
+                }
+            },
+            "parentName": {
+                "name": "parentName",
+                "description": "Parent name",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "parentType": {
+                "name": "parentType",
+                "description": "Parent type",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "read": {
+                "name": "read",
+                "description": "Current user has read permission",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            },
+            "type": {
+                "name": "type",
+                "description": "Entity type",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {
+                    "isPrimaryKey": true
+                }
+            },
+            "update": {
+                "name": "update",
+                "description": "Current user has update permission",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {}
+            }
+        }
+    },
+    "rows": [
+        {
+            "description": "",
+            "id": "Emerson-DPub-RESOURCE-PDMLinkPart#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761229906237,
+            "name": "Emerson-DPub-RESOURCE-PDMLinkPart",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "",
+            "id": "Emerson-DPub-RESOURCE-VariantSpecification#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761229906211,
+            "name": "Emerson-DPub-RESOURCE-VariantSpecification",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "",
+            "id": "Emerson-DPub-OptionSet-Resource#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761229906148,
+            "name": "Emerson-DPub-OptionSet-Resource",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "",
+            "id": "Emerson-DPub-RESOURCE-NavigationCriteria-Default#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761229906126,
+            "name": "Emerson-DPub-RESOURCE-NavigationCriteria-Default",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "",
+            "id": "Emerson-DPub-RESOURCE-PDMLinkCADDocument#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761229905944,
+            "name": "Emerson-DPub-RESOURCE-PDMLinkCADDocument",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "Project specific scheduler that will handle windchill entity updates for the DPub application.  The WC endpoints submitting requests to this scheduler are coming from Emerson-DPub-WindchillSyncHelper thing.  ",
+            "id": "Emerson-DPub-WindChillUpdates-Scheduler#Thing",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761176590119,
+            "name": "Emerson-DPub-WindChillUpdates-Scheduler",
+            "parentName": "Things",
+            "parentType": "Things",
+            "type": "Thing"
+        },
+        {
+            "description": "Project specific scheduler that will handle windchill entity updates for the DPub application.  The WC endpoints submitting requests to this scheduler are coming from Emerson-DPub-WindchillSyncHelper thing.  ",
+            "id": "Emerson-DPub-Home-MU#Mashup",
+            "isEditable": true,
+            "isEditableExtensionObject": false,
+            "isEditableSystemObject": false,
+            "isExtension": false,
+            "isSystemObject": false,
+            "lastModifiedDate": 1761176590119,
+            "name": "Emerson-DPub-Home-MU",
+            "parentName": "Mashups",
+            "parentType": "Mashups",
+            "type": "Mashup"
+        }
+    ]
+}

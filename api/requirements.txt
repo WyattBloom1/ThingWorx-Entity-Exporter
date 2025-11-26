@@ -1,0 +1,8 @@
+flask
+beautifulsoup4
+xmldiff
+requests
+dotenv
+icdiff
+Flask-CORS
+cryptography
