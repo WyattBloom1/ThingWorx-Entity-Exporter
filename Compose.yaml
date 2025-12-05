@@ -1,9 +1,9 @@
 services:
   tw-exporter:
     image: tw-exporter
-    container_name: 'ThingworxExporter'
+    container_name: 'ThingworxExporter1'
     ports:
-      - 5000:5000
+      - 5001:5000
     volumes:
       - ./Servers:/app/data
     environment:

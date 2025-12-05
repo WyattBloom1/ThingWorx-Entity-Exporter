@@ -36,7 +36,7 @@ export default function Server(prop: Server) {
     function coverImage() {
         return (
             <div className="h-42 overflow-hidden rounded-t-lg items-center flex">
-                <img className="rounded-t-lg w-full" src={`/api/image/${prop.DisplayName}/CoverImage.jpg`} alt=""
+                <img className="rounded-t-lg w-full" src={`/api/Servers/${prop.DisplayName}/CoverImage.jpg`} alt=""
                     onError={(e) => (e.currentTarget.src = '/Image-not-found.png')}
                 />
             </div>
